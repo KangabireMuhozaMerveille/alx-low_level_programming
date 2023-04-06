@@ -2,6 +2,7 @@
 
 /**
  * factorial - serves a factorial function
+ * @n: input value
  * Return: Always 0
  */
 int factorial(int n)
