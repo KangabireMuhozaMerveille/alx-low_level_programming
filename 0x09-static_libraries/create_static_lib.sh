@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -c *.c
-ar rc liball.a *.o
+gcc -c *.c && chmod u+x *.o && ar rcs liball.a *.o
