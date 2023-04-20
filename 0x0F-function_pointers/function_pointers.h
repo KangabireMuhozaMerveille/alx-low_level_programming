@@ -7,6 +7,7 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 void print_elem(int elem);
 int int_index(int *array, int size, int (*cmp)(int));
 int is_98(int elem);
+int _putchar(char c);
 int op_add(int a, int b);
 int op_sub(int a, int b);
 int op_mul(int a, int b);
