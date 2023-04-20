@@ -8,6 +8,7 @@
  * @separator: is a string to be printed between numbers
  * @n: number of integers passed to the fuction
  * @...:
+ *
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
