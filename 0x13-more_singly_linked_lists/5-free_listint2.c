@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * free_listint - frees a linked list
+ * free_listint2 - frees a linked list
  * @head: list_t list to be freed
  */
 void free_listint2(listint_t **head)
@@ -12,11 +12,9 @@ void free_listint2(listint_t **head)
 
 	while (current != NULL)
 	{
-		
-			next = current->next;
-			free(current);
-			current = next;
-				
+		next = current->next;
+		free(current);
+		current = next;
 	}
 	*head = NULL;
 }
